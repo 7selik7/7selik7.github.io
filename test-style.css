@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: none;
+}
+#tests-container1{
+    margin: 0px;
+    margin-top: 50px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content1{
+    max-width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#test-struc > span{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: -40px;
+}
+#test-struc{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#content1 > span{
+    font-size: 70px;
+}
+.test-items > button{
+    margin-bottom: 25px;
+    font-family: 'Comfortaa', cursive;
+    border-bottom: 3px solid black ;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    width: 1200px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+.test-items > button:focus{
+    outline: none;
+    text-decoration: underline;
+}
+.test-items{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 50px;
+    border-bottom: 3px solid black;
+    max-width: 1200px;
+}
+
+#test-list{
+    max-width: 1200px;
+    padding: 20px;
+}
+
+
+.invisible1{
+    display: none;
+}
+.invisible2{
+    display: none;
+}
+.invisible3{
+    display: none;
+}
+.invisible4{
+    display: none;
+}
+.invisible5{
+    display: none;
+}
+.invisible6{
+    display: none;
+}
+.invisible7{
+    display: none;
+}
+
+.visible1{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.visible1 > span{
+    font-size: 30px;
+}
+.visible1 > div{
+    font-size: 25px;
+}
+.visible2{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.visible2 > span{
+    font-size: 30px;
+}
+.visible2 > div{
+    font-size: 25px;
+}
+.visible3{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.visible3 > span{
+    font-size: 30px;
+}
+.visible3 > div{
+    font-size: 25px;
+}
+.visible4{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.visible4 > span{
+    font-size: 30px;
+}
+.visible4 > div{
+    font-size: 25px;
+}
+.visible5{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.visible5 > span{
+    font-size: 30px;
+}
+.visible5 > div{
+    font-size: 25px;
+}
+.visible6{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.visible6 > span{
+    font-size: 30px;
+}
+.visible6 > div{
+    font-size: 25px;
+}
+.visible7{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.visible7 > span{
+    font-size: 30px;
+}
+.visible7 > div{
+    font-size: 25px;
+}
+#feedback{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+#footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+}
+#footer-content{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#social-links{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+#social-links > a >  img{
+    width: 50px;
+    height: 50px;
+}
+#rights{
+    color: white;
+    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
