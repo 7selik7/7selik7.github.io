@@ -6,7 +6,7 @@ let results = document.querySelector(".none");
 let comentar = document.querySelectorAll(".comentar");
 let comentarBtns = document.querySelectorAll("#readComentar");
 let checkBtns = document.querySelectorAll("#checkbtn");
-let answer-choosing = document.querySelectorAll("#answer-choosing");
+let answerChoosing = document.querySelectorAll("#answerChoosing");
 let finishTest = document.querySelector('.finishtest');
 let main = document.querySelector('.containertop');
 let nexttaskBtn = document.querySelectorAll('.nexttask');
@@ -20,7 +20,7 @@ let array = [];
 let finTab = document.querySelectorAll(".finish-items");
 
 console.log(x);
-console.log(answer-choosing);
+console.log(answerChoosing);
 console.log(checkBtns);
 function isEquals(index){
     return;
@@ -53,7 +53,7 @@ for(let i=0; i < checkBtns.length - 1; i++){
         Event.preventDefault();
         let checkAnswer = document.querySelector(`.radio-style${i+1}:checked`);
         if(checkAnswer === null){
-            answer-choosing[i].textContent = "ПОЗНАЧТЕ ВІДПОВІДІ!!!";
+            answerChoosing[i].textContent = "ПОЗНАЧТЕ ВІДПОВІДІ!!!";
         }
         else{
         array.push(checkAnswer)
@@ -68,7 +68,7 @@ checkBtns[19].addEventListener('click', function(Event){
     Event.preventDefault();
     let checkAnswer = document.querySelector(`.radio-style${20}:checked`);
     if(checkAnswer === null){
-        answer-choosing[19].textContent = "ПОЗНАЧТЕ ВІДПОВІДІ!!!";
+        answerChoosing[19].textContent = "ПОЗНАЧТЕ ВІДПОВІДІ!!!";
     }
     else{
     array.push(checkAnswer)

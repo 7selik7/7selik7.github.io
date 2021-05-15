@@ -28,6 +28,11 @@
 }
 }
 @media screen and (max-width: 780px){
+  .check-mark{
+    height: 20px;
+    width: 20px;
+    padding-top: 5px;
+}
   .test-items > button{
   width: 480px;
 }
@@ -700,6 +705,10 @@ a {
 
 }
 @media screen and (max-width: 380px) {
+  .check-mark{
+    height: 12px;
+    width: 12px;
+}
     .dummy-content > span {
         font-size: 20px;
     }

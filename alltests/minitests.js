@@ -7,7 +7,7 @@ let comentar = document.querySelectorAll(".comentar");
 let comentarBtns = document.querySelectorAll("#readComentar");
 
 let checkBtns = document.querySelectorAll("#checkbtn");
-let answer-choosing = document.querySelectorAll("#answer-choosing");
+let answerChoosing = document.querySelectorAll("#answerChoosing");
 
 let finishTest = document.querySelector('.finishtest');
 let main = document.querySelector('.containertop');
@@ -64,7 +64,7 @@ for(let i=0; i < checkBtns.length; i++){
         if(checkAnswer.value == "true"){
             countAnwers = countAnwers + 1;
             countBtns = countBtns + 1;
-            answer-choosing[i].textContent = "Позначте відповіді: вірно";
+            answerChoosing[i].innerHTML = ('Позначте відповіді: вірно <img src="../pictures/check-mark.png" alt="" class="check-mark">') ;
             checkBtns[i].setAttribute("disabled", "disabled");
             checkAnswer.removeAttribute("checked", "checked");
             if(i != x){
@@ -76,7 +76,7 @@ for(let i=0; i < checkBtns.length; i++){
         }
         else{
             countBtns = countBtns + 1;
-            answer-choosing[i].textContent = "Позначте відповіді: не вірно";
+            answerChoosing[i].innerHTML = ('Позначте відповіді: не вірно <img src="../pictures/close-cross.png" alt="" class="check-mark">') ;
         }
     });
 }
